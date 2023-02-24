@@ -813,7 +813,7 @@ def mek(phone):
             print(f'{g}(HamrahMechanic) {w}Code Was Sent')
             return True
     except: pass
-# ================================[SEND SMS FUNC]================================
+# ================================[SEND SMS HACKER]================================
 def is_phone(phone: str):
     if match(r"(\+989|^989|09|9)[0-9]{9}", phone):
         return sub(r"(\+989|^989|09)", "+989", phone)
@@ -869,9 +869,9 @@ if __name__ == '__main__':
         for char in Str:
             print(char, end='', flush=True)
             sleep(.01)
-    printLow(f'''{r}++++++++++++++++++++++++++++
+    printLow(f'''{r}
 {w} godrat daram
-{g} +++++++++++++++++++++++++
+{g}
 
 {y}Info:
     {g}[+] {y}Coder: {r} hacker samy
